@@ -9,7 +9,7 @@ class Home extends Component
     
     public function help()
     {
-        redirect()->route('help.index');
+        return $this->redirectRoute('help.index');
     }
     
     public function render()

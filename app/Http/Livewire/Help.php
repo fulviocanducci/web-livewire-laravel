@@ -13,6 +13,6 @@ class Help extends Component
 
     public function home()
     {
-        return redirect()->route('home.index');
+        return $this->redirectRoute('home.index');
     }
 }
